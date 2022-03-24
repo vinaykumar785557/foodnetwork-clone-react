@@ -1,0 +1,123 @@
+.social__wrapper {
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	padding: 20px;
+
+	/* margin-left: 120px;
+    margin-right: 100px; */
+}
+
+.social__wrapper img {
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+	padding: 10px;
+	margin: 10px;
+}
+
+.title__social {
+	font-size: 0.75rem;
+	font-weight: 500;
+	letter-spacing: 0.0862rem;
+	line-height: 1.125rem;
+	margin: 1rem 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.social__buttons button {
+	padding: 12px;
+	margin: 0px 12px;
+	width: 3rem;
+	height: 3rem;
+	display: inline-block;
+	border: none;
+	font-size: 1.5rem;
+	background: none;
+	transition: 0.2s ease-in;
+}
+.social__buttons button:hover {
+	color: red;
+	cursor: pointer;
+}
+
+.external {
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.external__list {
+	list-style: none;
+	width: auto;
+	height: auto;
+	margin: 20px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	font-size: 0.75rem;
+	letter-spacing: 0.025rem;
+	font-weight: 500;
+	text-align: left;
+    margin-top: 100px;
+	/* inline-size: 150px;
+	overflow-wrap: break-word;
+    word-break: break-all; */
+}
+
+.external__list li {
+	padding: 10px;
+	margin: 8px;
+	text-transform: uppercase;
+	transition: 0.2s ease-out;
+    text-decoration: none;
+}
+
+.external__list li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-decoration-thickness: 0.0938rem;
+}
+
+.footer__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	height: auto;
+	width: 100%;
+	background-color: white;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	height: auto;
+}
+
+.footer__copyright {
+    margin-top: 30px;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-left: 30px;
+	font-weight: 500;
+	font-size: 0.685rem;
+	color: rgb(37, 36, 36);
+	background-color: white;
+	margin-bottom: 1rem;
+}
+
+footer {
+	margin-top: 50px;
+}

@@ -1,0 +1,29 @@
+.adds {
+	margin: 10rem auto;
+	min-height: 7.125rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	overflow: hidden;
+}
+
+.adds p {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.563rem;
+	font-weight: 500;
+	letter-spacing: 0.0875rem;
+	line-height: 0.625rem;
+	margin-bottom: 0.875rem;
+	color: dimgray;
+	display: block;
+}
+
+.adds img {
+	margin: 5px;
+	padding: 5px;
+	width: min-content;
+	height: min-content;
+}

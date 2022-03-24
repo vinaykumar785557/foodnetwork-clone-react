@@ -1,0 +1,35 @@
+.logos {
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+img:hover {
+	cursor: pointer;
+}
+img {
+	object-fit: contain;
+	width: min-content;
+	height: min-content;
+	border: none;
+	background: none;
+}
+
+.logos__brands {
+	border-left-color: white;
+}
+
+.logos__brands img {
+	margin: 16px;
+	padding: 16px;
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+}
+
+.corouslogo {
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+}

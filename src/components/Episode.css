@@ -1,0 +1,52 @@
+.episode__container {
+	background-color: white;
+	padding: 50px;
+	max-width: 100%;
+	height: auto;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.episode__container img {
+	width: 550px;
+	height: 380px;
+	object-fit: contain;
+}
+
+.episode__wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.episode__details {
+	/* border: 1px solid coral; */
+	height: 370px;
+	padding: 50px;
+	margin: auto;
+}
+.episode__details p {
+	padding-right: 10px;
+	margin-top: 40px;
+	letter-spacing: 0.875px;
+	line-height: 2rem;
+	font-size: 1.125rem;
+	letter-spacing: 0.15rem;
+	font-weight: 400;
+}
+
+.episode__details a {
+	color: black;
+	text-decoration-color: red;
+}
+
+.episode__details a:hover {
+	color: red;
+}
+
+.episode__details h2 {
+	font-size: 1.5rem;
+	letter-spacing: 0.12rem;
+	line-height: 2rem;
+	font-weight: 500;
+}
